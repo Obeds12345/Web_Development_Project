@@ -46,8 +46,8 @@
                     <ul>
                         <li><a class="active" href="#home">Home</a></li>
                         <li><a href="#news">Service</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#about">About</a></li>
+                        <li><a href="contact">Contact</a></li>
+                        <li><a href="about">About</a></li>
                     </ul>
                     <button class="button">Book Now</button>
                 </div>
@@ -176,7 +176,7 @@
 
 </body>
 
-<link rel="stylesheet" href="style.css">
-<script src="index.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<script src="javascript/index.js"></script>
 
 </html>
