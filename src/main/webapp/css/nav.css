@@ -1,0 +1,15 @@
+#navbarSupportedContent ul li {
+    margin-right: 50px;
+    border-bottom: 2px solid white;
+}
+#navbarSupportedContent ul li:hover {
+    border-bottom: 2px solid #17a2b8;
+}
+
+  #navbarSupportedContent ul li .nav-link {
+  color: black;
+  }
+
+  #navbarSupportedContent ul li .nav-link:hover {
+    color: #17a2b8;
+    }

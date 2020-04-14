@@ -1,8 +1,3 @@
-.center_xy {
-  display: flex;
-  align-items:center;
-  justify-content: center;
-}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -19,18 +14,10 @@
   color: rgb(255, 255, 255);
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1039;
-}
-
-  
   #slider {
     overflow: hidden;
   }
-  
+
   #slider  {
     position: relative;
     margin: 0;
@@ -61,7 +48,7 @@
     border: 2px solid white;
     color: #0594a8;
   }
-  
+
   #slider .sliderbtn .signup {
     border: 2px solid #ffffff;
     color: #0594a8;
@@ -76,11 +63,11 @@
     border: 2px solid rgb(71, 45, 45);
     color: #ffffff;
   }
-.movecard {
+.cardm {
   margin-bottom: 50px;
   position: absolute;
   top: 750px;
-  left: 5.5% 
+  left: 5.5%
 }
 
  .serviceBtn {
@@ -96,48 +83,3 @@
   border: 2px solid #0594a8;
   color: #0594a8;
 }
-
-.bg-burlywood{
-  background-color: burlywood;
-}
-
-.bg-dark {
-  background-color: #000 !important;
- }
- 
- .bg-circle
- {
-   display: inline-block;
-   width: 60px;
-   height: 60px;
-   padding: 14px 4px;
-   color: #ececec;
-   text-align: center;
-   border-radius: 50%;
- }
- 
- .bg-circle-outline
- {
-   width: 50px;
-   height: 50px;
-   color:smoke;
-   padding: 8px 2px;
-   border: 2px solid;
-   border-color: smoke;
-   border-radius: 50%;
- }
- 
- 
- .bg-circle a, a:hover, .media a:focus
- {
-   text-decoration: none !important;
-   outline: none;
-   color: #ececec;
- }
- .bg-circle-outline a, a:hover, .media a:focus
- {
-   text-decoration: none !important;
-   outline: none;
-   color: #ececec;
- }
- 
