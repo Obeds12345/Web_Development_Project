@@ -10,6 +10,9 @@
   width: 100%;
   z-index: 1039;
 }
+.fw700{
+  font-weight: 700;
+}
 
 .bg-burlywood{
   background-color: burlywood;

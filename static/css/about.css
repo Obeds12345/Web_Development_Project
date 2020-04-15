@@ -1,0 +1,38 @@
+.what_we_do ul li {
+    font-size: 14px; 
+    list-style-type: none; 
+    margin-bottom: 1em; 
+    padding: 0.25em 0 0 2.5em; 
+    position: relative; 
+  }
+  .what_we_do ul li:before {
+    content: " "; 
+    display: block;
+    border: solid 0.8em #17a2b8; 
+    border-radius: .8em; 
+    height: 0;
+    width: 0;
+    position: absolute; 
+    left: 0.5em;
+    top: 40%; 
+    margin-top: -0.5em;
+    box-sizing: content-box
+  }
+  
+.what_we_do ul li:after{
+  content: " ";
+  display: block;
+  width: 0.3em; 
+  height: 0.6em;
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0; 
+  position: absolute;
+  left: 1em;
+  top: 40%;
+  margin-top: -0.2em;
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  box-sizing: content-box
+}
