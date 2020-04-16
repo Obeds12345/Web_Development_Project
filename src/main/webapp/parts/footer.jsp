@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/footer.css">
 
-<footer class="mt-5">
+<footer class=" border-top">
         <div class="container-fluid bg-faded mt-5">
             <div class="container">
                 <div class="row py-3">
@@ -89,11 +89,11 @@
         </div>
 
 
-        <div class="container-fluid bg-dark py-3">
+        <div class="container-fluid bg-dark">
             <div class="container">
-                <div class="row py-3">
+                <div class="row py-2">
                     <div class="col-md-9">
-                        <p class="text-white">Lorem ipsum.</p>
+                        <p class="text-white">Copyright© 2020 Barbs Beaver All Rights Reserved</p>
                     </div>
                     <div class="col-md-3">
                         <div class="d-inline-block">

@@ -1,0 +1,5 @@
+item1, 4, 1, Waterproof Carrot toy, 5.99, 10.99
+item2, 5, 0, Portable Safe Cage, 129.99, 499.99
+item3, 3, 2, I'm a Beaver Cup, 8.99, 15.99
+item4, 3, 2, Beaver Statue, 14.99, 60.99
+item2, 3, 2, Item Description, 10.99, 59.99

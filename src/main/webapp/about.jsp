@@ -13,5 +13,6 @@
             <jsp:include page="parts/about.jsp"></jsp:include>
         </div>
     </div>
+      <%@ include file="parts/footer.jsp" %>
 </body>
 </html>

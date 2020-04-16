@@ -1,5 +1,6 @@
 <script src="./javascript/index.js"></script>
 <link rel="stylesheet" href="./css/nav.css">
+
  <nav class="navbar navbar-light bg-info py-2">
      <div class="container-fluid text-white d-flex justify-content-between">
        <div class="">
@@ -28,7 +29,7 @@
 
    <nav class="navbar navbar-expand-md navbar-white bg-white sticky-top py-0 border-bottom">
      <div class="container">
-       <a class="navbar-brand" href="index">LOGO</a>
+  <a class="navbar-brand" href="index"><img src="images/logo.jpg" alt="" style="height: 60px;"></a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -46,8 +47,8 @@
                Service
              </a>
              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="#">Training/Workshop Page</a>
-               <a class="dropdown-item" href="#">Another action</a>
+               <a class="dropdown-item" href="workshop">Training/Workshop</a>
+               <a class="dropdown-item" href="shop">Shop</a>
                <div class="dropdown-divider"></div>
                <a class="dropdown-item" href="#">Something else here</a>
              </div>

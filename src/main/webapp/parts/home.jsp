@@ -1,6 +1,7 @@
  <script src="./javascript/index.js"></script>
  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/home.css">
+
    <main>
           <div class="" style="height: 850px;">
               <div id="slider">

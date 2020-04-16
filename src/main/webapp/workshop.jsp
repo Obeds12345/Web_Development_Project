@@ -10,8 +10,9 @@
 <%@ include file="parts/nav.jsp" %>
     <div class="view">
         <div class="pages">
-            <jsp:include page="parts/contact.jsp"></jsp:include>
+            <jsp:include page="parts/workshop.jsp"></jsp:include>
         </div>
     </div>
+      <%@ include file="parts/footer.jsp" %>
 </body>
 </html>
