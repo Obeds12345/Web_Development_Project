@@ -20,11 +20,31 @@
   color: rgb(255, 255, 255);
 }
 
+
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1039;
+}
+.category{
+  border-radius: 50%;
+  height:  200px; 
+  width: 200px; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  transition: transform .2s; /* Animation */
+}
+.category:hover{
+  transform: scale(1.1); 
+}
+
+.u:hover{
+  text-decoration: underline;
+}
+.pointer{
+cursor: pointer;
 }
 
 .fw700{

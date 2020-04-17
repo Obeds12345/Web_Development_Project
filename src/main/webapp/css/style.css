@@ -21,3 +21,20 @@
 .bg-dark {
   background-color: #000 !important;
  }
+
+ .category{
+   border-radius: 50%;
+   height:  200px;
+   width: 200px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   transition: transform .2s; /* Animation */
+ }
+
+ .u:hover{
+   text-decoration: underline;
+ }
+ .pointer{
+ cursor: pointer;
+ }
