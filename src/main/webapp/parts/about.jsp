@@ -3,9 +3,10 @@
             style="align-items:center;background-image: url(images/image5.jpg);height: 200px;">
             <div class="p-5">
                 <h6>
-                    <span>Home </span>
-                    <span> ></span>
-                    <span> About/History</span>
+                  <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Our History</li>
+                  </ol>
                 </h6>
                 <h1> ABOUT US </h1>
             </div>

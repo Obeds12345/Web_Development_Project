@@ -20,8 +20,9 @@
 .u:hover{
    text-decoration: underline;
 }
-.a:hover{
-  color: black;
+a:hover{
+  color: #007bff;
+  text-decoration: underline
 }
 .pointer{
 cursor: pointer;

@@ -1,5 +1,5 @@
 <div class="container">
- <div class="d-flex justify-content-end py-2">
+ <div class="row d-flex justify-content-end py-2">
         <button class="clear-cart btn btn-sm btn-danger">Clear Cart</button>
 </div>
     <div class="row">
@@ -96,42 +96,63 @@
                 <label> <input type="checkbox" /> Remember </label>
             </div>
             <div class="modal-body container">
-                <form role="form">
+                <form action="cart" method="post">
+                    <div class="form-group">
+                        <label class="control-label" for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md">
+                    </div>
+
+<div class="row">
+    <div class="col-7">
+        <div class="form-group">
+            <label class="control-label" for="name">Email</label>
+            <input id="email" name="email" type="text" placeholder="Email" class="form-control ">
+        </div>
+    </div>
+    <div class="col-5">
+        <div class="form-group">
+            <label class="control-label" for="name">Phone</label>
+            <input id="phone" name="phone" type="number" placeholder="Phone" class="form-control">
+        </div>
+    </div>
+</div>
+
+                    <div class="form-group">
+                       <label class="control-label" for="name">Address</label>
+                       <input id="address" name="address" type="text" placeholder="Name" class="form-control input-md">
+                   </div>
                     <div class="form-group">
                         <label for="cardNumber"> CARD NUMBER</label>
-                        <div class="col-xs-12 col-lg-12">
-                            <input class="form-control" id="cardNumber" placeholder="Valid Card Number"
+                            <input class="form-control" id="cardNumber" placeholder="Valid Card Number" name="card"
                               oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                              minlength="13" maxlength="13" type="number"  required autofocus />
-                        </div>
+                              minlength="16" maxlength="16" type="number"  required autofocus />
                     </div>
-                    <div class="form-group">
-                        <label for="expityMonth"> EXPIRY DATE</label>
-                        <div class="col-xs-12 col-lg-6">
-                            <input type="month" class="form-control" id="expityMonth" placeholder="MMYY" required />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="cvCode"> CV CODE</label>
-                        <div class="col-xs-12 col-lg-4">
-                            <input type="password" class="form-control" id="cvCode" placeholder="CV"
-                             minlength="3" maxlength="3"required />
-                        </div>
-                    </div>
-                </form>
+                  <div class="row">
+                         <div class="col-6">
+                           <div class="form-group">
+                               <label for="expityMonth"> EXPIRY DATE</label>
+                                   <input type="month" class="form-control" id="expityMonth" name="date" placeholder="MMYY" required />
+                           </div>
+                           </div>
+                          <div class="col-6">
+                               <div class="form-group">
+                                    <label for="cvCode"> CV CODE</label>
+                                        <input type="password" class="form-control" id="cvCode" name="cvCode" placeholder="CV"
+                                         minlength="3" maxlength="3"required />
+                                </div>
+                            </div>
+                   </div>
+
             </div>
             <div class="modal-footer">
-                <button class="btn btn-success  btn-block" role="button">Pay</button>
+                <button class="btn btn-success  btn-block" role="button" type="submit">Pay</button>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
+            </div
+              </form>
         </div>
     </div>
 </div>
 
 <script src="./javascript/index.js"></script>
-<style>
-    <%@ include file="../css/style.css"%>
-</style>
-<style>
-    <%@ include file="../css/contact.css"%>
-</style>
+<style><%@ include file="../css/style.css"%></style>
+<style><%@ include file="../css/contact.css"%></style>

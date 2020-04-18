@@ -3,9 +3,10 @@
             style="align-items:center;background-image: url(images/image5.jpg);height: 200px;">
             <div class="p-5">
                 <h6>
-                    <span>Home </span>
-                    <span> ></span>
-                    <span> Contact us</span>
+                 <ol class="breadcrumb mb-0">
+                   <li class="breadcrumb-item"><a href="index" id="link">Home</a></li>
+                   <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+                 </ol>
                 </h6>
                 <h1> CONTACT US </h1>
             </div>
@@ -79,30 +80,32 @@
 
                 </div>
                 <div class="col-6">
-                    <form>
+                    <form action="contact" method="post">
+                    <div style="color:green">${contactMessage}</div>
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Your message" id="contactMessage"
+                            <textarea class="form-control" name="message" placeholder="Your message" id="contactMessage"
                                 rows="3"></textarea>
                         </div>
                         <div class="form-group">
-                            <input class="form-control form-control-lg" placeholder="Your name" type="text"
+                            <input class="form-control form-control-lg" name="name" placeholder="Your name" type="text"
                                 id="contactName">
                         </div>
                         <div class="form-group">
-                            <input class="form-control form-control-lg" placeholder="Your email" type="email"
+                            <input class="form-control form-control-lg" name="email" placeholder="Your email" type="email"
                                 id="contactEmail">
                         </div>
                         <div class="form-group">
-                            <select class="form-control form-control-lg" id="contactReason">
+                            <select class="form-control form-control-lg" name="reason" id="contactReason">
                                 <option>Reason of contact</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
+                                <option>I did not receive my order</option>
+                                <option>Return my item</option>
+                                <option>Cancel my appointment</option>
+                                <option>Other</option>
                             </select>
                         </div>
+
                         <div class="form-group d-flex justify-content-end">
-                            <button class="btn btn-info" type="submit">Submit</button>
+                            <button class="btn btn-info" type="submit" name="contact" >Submit</button>
                         </div>
                     </form>
                 </div>

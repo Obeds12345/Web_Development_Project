@@ -15,4 +15,25 @@ public class Contact extends HttpServlet {
         request.getRequestDispatcher("contact.jsp").forward(request, response);
     }
 
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        try {
+            String name = request.getParameter("message");
+            String email = request.getParameter("email");
+            String message = request.getParameter("message");
+            String reason = request.getParameter("reason");
+
+            if (request.getParameter("contact") != null) {
+                request.getSession().setAttribute("contactMessage", "Thanks for contacting us our staff will get to you soon.");
+                response.sendRedirect(request.getHeader("referer"));
+            } else if (request.getParameter("signup") != null) {
+                response.sendRedirect(request.getHeader("referer"));
+            }
+        } catch (Exception e) {
+
+        }
+    }
+
 }

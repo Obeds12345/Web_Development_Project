@@ -11,14 +11,20 @@
             </span>
             <span>
                 <i class="fas fa-envelope"></i>&nbsp;
-                <small>contact@beaver.com</small>
+                <small>beaver_care@gmail.com</small>
             </span>
         </div>
         <div>
             <ul class="list-inline my-0">
-                <li class="list-inline-item border-left border-right mx-0 px-4"><i class="fab fa-facebook-f"></i></li>
-                <li class="list-inline-item border-right mx-0 px-3"><i class="fab fa-twitter"></i></li>
-                <li class="list-inline-item border-right mx-0 px-3"><i class="fab fa-youtube"></i></li>
+                <li class="list-inline-item border-left border-right mx-0 px-4">
+                  <a href="https://www.facebook.com/" class="text-white"><i class="fab fa-facebook-f"></i> </a>
+               </li>
+                <li class="list-inline-item border-right mx-0 px-3">
+                   <a href="https://www.twitter.com/" class="text-white"><i class="fab fa-twitter"></i> </a>
+                </li>
+                <li class="list-inline-item border-right mx-0 px-3">
+                   <a href="https://www.youtube.com/" class="text-white"><i class="fab fa-youtube"></i></a>
+                </li>
             </ul>
         </div>
     </div>
@@ -60,7 +66,7 @@
                     Book Now
                 </button>
 
-                 <button class="btn btn-primary my-2 my-sm-0"  onClick="javascript:window.location='<%="cart"%>';">
+                 <button class="btn btn-warning my-2 my-sm-0 text-white"  onClick="javascript:window.location='<%="cart"%>';">
                      <i class="fa fa-shopping-cart"></i> (<span class="badge total-count"></span>)
                  </button>
         </div>
@@ -81,7 +87,7 @@
             <div class="modal-body">
                 <div class="col-md-12">
                     <div class="well-block">
-                        <form>
+                        <form action="workshop" method="post">
                             <!-- Form start -->
                             <div class="row">
                                 <div class="col-md-6">
@@ -123,17 +129,17 @@
                                     <div class="form-group">
                                         <label class="control-label" for="appointmentfor">Appointment For</label>
                                         <select id="appointmentfor" name="appointmentfor" class="form-control">
-                                            <option value="Service#1">Service#1</option>
-                                            <option value="Service#2">Service#2</option>
-                                            <option value="Service#3">Service#3</option>
-                                            <option value="Service#4">Service#4</option>
+                                            <option value="Service#1">Grooming</option>
+                                            <option value="Service#2">Beaver Yoga</option>
+                                            <option value="Service#3">Adoption Service</option>
+                                            <option value="Service#4">Exercise</option>
                                         </select>
                                     </div>
                                 </div>
                                 <!-- Button -->
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <button id="singlebutton" name="singlebutton" class="btn btn-default">Make An
+                                        <button id="singlebutton" type="submit" name="makeAppointment" class="btn btn-default">Make An
                                             Appointment</button>
                                     </div>
                                 </div>
@@ -152,9 +158,5 @@
 
 
 <script src="./javascript/index.js"></script>
-<style>
-    <%@ include file="../css/style.css"%>
-</style>
-<style>
-    <%@ include file="../css/nav.css"%>
-</style>
+<style><%@ include file="../css/style.css"%></style>
+<style><%@ include file="../css/nav.css"%></style>

@@ -165,3 +165,27 @@ cursor: pointer;
    color: #ececec;
  }
  
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #FFF;
+  background-color: #17a2b8;
+  border: 0;
+  border-radius: 0;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+  background: #d9d9d9;
+  color: #6c6c6c;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#confetti{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}

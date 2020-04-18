@@ -1,159 +1,135 @@
-<nav class="navbar navbar-light bg-info py-2">
-    <div class="container-fluid text-white d-flex justify-content-between">
-        <div class="">
-            <span class="mr-2">
-                <i class="fas fa-map-marker-alt"></i>&nbsp;
-                <small>2031 South Clark, Chicago-IL</small>
-            </span>
-            <span class="mr-2">
-                <i class="fas fa-phone-volume"></i>&nbsp;
-                <small>312 394 9286</small>
-            </span>
-            <span>
-                <i class="fas fa-envelope"></i>&nbsp;
-                <small>contact@beaver.com</small>
-            </span>
-        </div>
-        <div>
-            <ul class="list-inline my-0">
-                <li class="list-inline-item border-left border-right mx-0 px-4"><i class="fab fa-facebook-f"></i></li>
-                <li class="list-inline-item border-right mx-0 px-3"><i class="fab fa-twitter"></i></li>
-                <li class="list-inline-item border-right mx-0 px-3"><i class="fab fa-youtube"></i></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<nav class="navbar navbar-expand-md navbar-white bg-white sticky-top py-0 border-bottom">
-    <div class="container">
-        <a class="navbar-brand" href="index"><img src="images/logo.jpg" alt="" style="height: 60px;"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto px-2 py-3">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Service
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="workshop">Training/Workshop</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="shop">Shop</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about">About Us</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-outline-info my-2 my-sm-0" data-toggle="modal" data-target="#booknow">Book
-                    Now</button>
-            </form>
-        </div>
-    </div>
-</nav>
-
-<!-- Modal -->
-<div class="modal fade" id="booknow" tabindex="-1" role="dialog" aria-labelledby="booknowTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
+            <!-- Shopping cart table -->
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="border-0 bg-light">
+                                <div class="p-2 px-3 text-uppercase">Product</div>
+                            </th>
+                            <th scope="col" class="border-0 bg-light">
+                                <div class="py-2 text-uppercase">Price</div>
+                            </th>
+                            <th scope="col" class="border-0 bg-light">
+                                <div class="py-2 text-uppercase">Quantity</div>
+                            </th>
+                            <th scope="col" class="border-0 bg-light">
+                                <div class="py-2 text-uppercase">Remove</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <table class="show-cart table">
+                    </table>
+                    <!--  <div class="d-flex justify-content-end">Total price: $<span class="total-cart"></span></div>  -->
+                </table>
             </div>
-            <div class="modal-body">
-                <div class="col-md-6">
-                    <div class="well-block">
-                        <div class="well-title">
-                            <h2>Questions? Book an Appointment</h2>
-                        </div>
-                        <form>
-                            <!-- Form start -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="name">Name</label>
-                                        <input id="name" name="name" type="text" placeholder="Name"
-                                            class="form-control input-md">
-                                    </div>
-                                </div>
-                                <!-- Text input-->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="email">Email</label>
-                                        <input id="email" name="email" type="text" placeholder="E-Mail"
-                                            class="form-control input-md">
-                                    </div>
-                                </div>
-                                <!-- Text input-->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="date">Preferred Date</label>
-                                        <input id="date" name="date" type="text" placeholder="Preferred Date"
-                                            class="form-control input-md">
-                                    </div>
-                                </div>
-                                <!-- Select Basic -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="time">Preferred Time</label>
-                                        <select id="time" name="time" class="form-control">
-                                            <option value="8:00 to 9:00">8:00 to 9:00</option>
-                                            <option value="9:00 to 10:00">9:00 to 10:00</option>
-                                            <option value="10:00 to 1:00">10:00 to 1:00</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- Select Basic -->
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label class="control-label" for="appointmentfor">Appointment For</label>
-                                        <select id="appointmentfor" name="appointmentfor" class="form-control">
-                                            <option value="Service#1">Service#1</option>
-                                            <option value="Service#2">Service#2</option>
-                                            <option value="Service#3">Service#3</option>
-                                            <option value="Service#4">Service#4</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- Button -->
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <button id="singlebutton" name="singlebutton" class="btn btn-default">Make An
-                                            Appointment</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                        <!-- form end -->
+            <!-- End -->
+        </div>
+    </div>
+
+    <div class="row bg-white border rounded shadow-sm">
+        <div class="col-lg-6 pl-0">
+            <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Coupon code</div>
+            <div class="p-4">
+                <p class="font-italic mb-4">If you have a coupon code, please enter it in the box below</p>
+                <div class="input-group mb-4 border rounded-pill p-2">
+                    <input type="text" placeholder="Apply coupon" aria-describedby="button-addon3"
+                        class="form-control border-0">
+                    <div class="input-group-append border-0">
+                        <button id="button-addon3" type="button" class="btn btn-dark px-4 rounded-pill"><i
+                                class="fa fa-gift mr-2"></i>Apply coupon</button>
                     </div>
                 </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Instructions for seller
+            </div>
+            <div class="p-4">
+                <p class="font-italic mb-4">If you have some information for the seller you can leave them in
+                    the box below</p>
+                <textarea name="" cols="30" rows="2" class="form-control"></textarea>
+            </div>
+        </div>
+        <div class="col-lg-6 pr-0">
+            <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Order summary </div>
+            <div class="p-4">
+                <p class="font-italic mb-4">Shipping and additional costs are calculated based on values you
+                    have entered.</p>
+                <ul class="list-unstyled mb-4">
+                    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order
+                            Subtotal </strong>
+                        <strong>
+                            <span>$</span>
+                            <span class="total-cart"></span>
+                        </strong>
+                    </li>
+                    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping
+                            and handling</strong><strong>$10.00</strong></li>
+                    <li class="d-flex justify-content-between py-3 border-bottom"><strong
+                            class="text-muted">Tax</strong>
+                        <strong>
+                            <span>$</span>
+                            <span class="tax"></span>
+                        </strong>
+                    </li>
+                    <li class="d-flex justify-content-between py-3 border-bottom"><strong
+                            class="text-muted">Total</strong>
+                        <h5 class="font-weight-bold">$400.00</h5>
+                    </li>
+                </ul><a href="#" class="btn btn-dark rounded-pill py-2 btn-block" data-toggle="modal"
+                    data-target="#checkout">Procceed to checkout</a>
             </div>
         </div>
     </div>
 </div>
 
 
+
+
+<!-- Modal -->
+<div class="modal fade" id="checkout" tabindex="-1" role="dialog" aria-labelledby="checkoutTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Payment Details</h5>
+                <label> <input type="checkbox" /> Remember </label>
+            </div>
+            <div class="modal-body container">
+                <form role="form">
+                    <div class="form-group">
+                        <label for="cardNumber"> CARD NUMBER</label>
+                        <div class="col-xs-12 col-lg-12">
+                            <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number"
+                                required autofocus />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="expityMonth"> EXPIRY DATE</label>
+                        <div class="col-xs-12 col-lg-6">
+                            <input type="date" class="form-control" id="expityMonth" placeholder="MMYY" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvCode"> CV CODE</label>
+                        <div class="col-xs-12 col-lg-4">
+                            <input type="password" class="form-control" id="cvCode" placeholder="CV" required />
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-success  btn-block" role="button">Pay</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="./javascript/index.js"></script>
 <style>
     <%@ include file="../css/style.css"%>
 </style>
 <style>
-    <%@ include file="../css/nav.css"%>
+    <%@ include file="../css/contact.css"%>
 </style>

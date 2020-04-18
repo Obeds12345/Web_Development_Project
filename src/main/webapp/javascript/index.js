@@ -151,15 +151,12 @@ function displayCart() {
   var cartArray = shoppingCart.listCart();
   var output = "";
 
-
-  var showCheckOut = cartArray.length === 0 ? 'd-none' : 'show'
   if(cartArray.length === 0){
-
-  var element = document.getElementById("showCheckOut");
-  var name = "d-none";
-  var arr = element.className.split(" ");
-  element.className += " " + name;
-
+      var element = document.getElementById("showCheckOut");
+      var name = "d-none";
+      if(element){
+        element.className += " " + name;
+    }
 
   output = `<div class="py-3 my-3">`
           +`<div class="center_xy">`
@@ -190,7 +187,7 @@ function displayCart() {
       + "<td class='border-0 align-middle'>" + cartArray[i].total + "</td>"
       + "</tr>";
   }
-  var tax = (shoppingCart.totalCart()*10)/100
+  var tax = (shoppingCart.totalCart()*7.5)/100
   var shipping = 19.99
   var order_total =  shoppingCart.totalCart() + tax + shipping
   tax = Number(tax.toFixed(2));

@@ -1,6 +1,11 @@
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+
 <main>
     <div class="" style="height: 850px;">
         <div id="slider">
+
+
+
             <div id="ImageCarouse" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -22,11 +27,30 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <div class="sliderbtn">
-                <div class="sliderText">Welcome to Barbs Beaver Lodge!</div>
-                <button class="btn login">Login</button>
-                <button class="btn signup">Become a member</button>
-            </div>
+
+
+
+
+             <% if (session.getAttribute("login") == null) { %>
+              <div class="sliderbtn">
+                    <button class="btn login" onClick="javascript:window.location='<%="login"%>';">Login</button>
+                    <button class="btn signup" onClick="javascript:window.location='<%="login"%>';">Become a member</button>
+                </div>
+               <% } else {%>
+                 <div class="sliderText" style="letter-spacing: 8px;">
+                 <div class="" style="line-height: 45px;">
+                     <div class="" style=" letter-spacing: 20px;">BARB'S</div>
+                     <div class="mb-3"> Beaver Lodge! </div>
+                 </div>
+                 <span class="h3"> Welcome</span>
+               <% } %>
+              </div>
+
+
+
+
+
+
         </div>
         <div class="container cardm">
             <div class="row">
@@ -43,7 +67,7 @@
                                     <p class="card-text py-2">Adopt A Beaver and make a difference for animals and the
                                         environment.</p>
                                     <div class="d-flex justify-content-end">
-                                        <a href="contact" class="card-link">Read-more</a>
+                                        <a href="contact" class="card-link u">Read-more</a>
                                     </div>
                                 </div>
 
@@ -62,7 +86,7 @@
                                     <p class="card-text py-2">Pet Items Online 30% Off Today, Low Prices, Free Shipping,
                                         Shop And Save Now.</p>
                                     <div class="d-flex justify-content-end">
-                                        <a href="shop" class="card-link">Read-more</a>
+                                        <a href="shop" class="card-link u">Read-more</a>
                                     </div>
                                 </div>
 
@@ -82,7 +106,7 @@
                                         healthiness of a
                                         beaver.</p>
                                     <div class="d-flex justify-content-end">
-                                        <a href="workshop" class="card-link">Read-more</a>
+                                        <a href="workshop" class="card-link u">Read-more</a>
                                     </div>
                                 </div>
 

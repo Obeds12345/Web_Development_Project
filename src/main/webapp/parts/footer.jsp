@@ -89,7 +89,7 @@
             <div class="container">
                 <div class="row py-2">
                     <div class="col-md-9">
-                        <p class="text-white">Copyright© 2020 Barbs Beaver All Rights Reserved</p>
+                        <p class="text-white">Copyright@ 2020 Barbs Beaver All Rights Reserved.</p>
                     </div>
                     <div class="col-md-3">
                         <div class="d-inline-block">

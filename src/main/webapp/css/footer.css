@@ -20,14 +20,13 @@
   border-radius: 50%;
 }
 
-
-.bg-circle a, a:hover, .media a:focus
+.bg-circle:hover, .media:focus
 {
   text-decoration: none !important;
   outline: none;
   color: #ececec;
 }
-.bg-circle-outline a, a:hover, .media a:focus
+.bg-circle-outline :hover, .media:focus
 {
   text-decoration: none !important;
   outline: none;
