@@ -74,7 +74,7 @@
                     <li class="d-flex justify-content-between py-3 border-bottom"><strong
                             class="text-muted">Total</strong>
                         <h5 class="font-weight-bold">
-                        <span class="order-total">#</span>
+                        <span class="order-total"></span>
                         </h5>
                     </li>
                 </ul><a href="#" class="btn btn-dark rounded-pill py-2 btn-block" data-toggle="modal"
@@ -96,30 +96,30 @@
                 <label> <input type="checkbox" /> Remember </label>
             </div>
             <div class="modal-body container">
-                <form action="cart" method="post">
+                <form action="order" method="post">
                     <div class="form-group">
                         <label class="control-label" for="name">Name</label>
-                        <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md">
+                        <input id="name" name="name" maxlength="100"type="text" placeholder="Name" class="form-control input-md">
                     </div>
 
-<div class="row">
-    <div class="col-7">
-        <div class="form-group">
-            <label class="control-label" for="name">Email</label>
-            <input id="email" name="email" type="text" placeholder="Email" class="form-control ">
-        </div>
-    </div>
-    <div class="col-5">
-        <div class="form-group">
-            <label class="control-label" for="name">Phone</label>
-            <input id="phone" name="phone" type="number" placeholder="Phone" class="form-control">
-        </div>
-    </div>
-</div>
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="form-group">
+                                <label class="control-label" for="name">Email</label>
+                                <input id="email" name="email" type="text" maxlength="100" placeholder="Email" class="form-control ">
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="form-group">
+                                <label class="control-label" for="name">Phone</label>
+                                <input id="phone" name="phone" maxlength="13" type="number" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="form-group">
                        <label class="control-label" for="name">Address</label>
-                       <input id="address" name="address" type="text" placeholder="Name" class="form-control input-md">
+                       <input id="address" name="address" maxlength="100" type="text" placeholder="Name" class="form-control input-md">
                    </div>
                     <div class="form-group">
                         <label for="cardNumber"> CARD NUMBER</label>
@@ -145,7 +145,7 @@
 
             </div>
             <div class="modal-footer">
-                <button class="btn btn-success  btn-block" role="button" type="submit">Pay</button>
+                <button class="btn btn-success clear-session btn-block" role="button" type="submit">Pay</button>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div
               </form>

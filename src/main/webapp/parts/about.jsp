@@ -15,17 +15,24 @@
             <div class="row py-4">
                 <div class="col-6">
 
-                    <h2> WHAT WE DO </h2>
-                    <span class="text-muted">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit et, delectus maxime sit
-                        provident excepturi corporis libero enim ut aspernatur optio deleniti, totam repellendus
-                        inventore fuga! Assumenda amet omnis ut!
+
+                    <span class="">
+                        Barb and his wife Sarah both have a bachelor’s degree in animal science from the University of Illinois at Chicago.
+                        They created Barb’s Beaver Lodge company in the Norwood Park neighborhood of the northwest side of Chicago, IL on
+                        April 4, 2011. Originally the company started by providing and suppling dog and cat items
+                         <div class="readmore">. On 2014, as the business
+                           continued to grow, the family decided to move to a new and big location in the same neighborhood. The company also
+                           added additional services to its business. Today, the company is serving hundreds of customers in the neighborhood
+                           and its surrounding with variety of pet supplies, training, and workshop. With more than 5000 products from the best
+                           selection of pet care items, Barb’s Beaver Lodge is committed to provide pet owners with competitive price and
+                           friendly customer service. Additionally, our company provide high quality pet training and workshop services.</div>
+
                     </span>
                     <div class="py-4 what_we_do">
                         <ul>
-                            <li>Persius appetere pro mea harum ridens</li>
-                            <li>Instructior vis at causae legimus luptatum mel</li>
-                            <li>Maluisset id persius appetere pro mea harum</li>
+                            <li>Serve and care about our community.</li>
+                            <li>Offer your pet a sustainable, organic food supply then you can try only natural and provide high quality pet training and workshop services.</li>
+                            <li>The Norwood Park neighborhood of the northwest side of Chicago and its surronding.</li>
                         </ul>
                     </div>
 
@@ -39,9 +46,8 @@
                                 <strong>+</strong>
                             </div>
                             <div class="collapse multi-collapse py-3" id="mission">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                                cred nesciunt sapiente ea proident.
+                             Serve and care about our community.provide high quality pet training and workshop services
+                             Is also the dream of Barbs beaver lodge to rescue and provide every beaver a home
                             </div>
                         </div>
                     </div>
@@ -54,9 +60,10 @@
                                 <strong>+</strong>
                             </div>
                             <div class="collapse multi-collapse py-3" id="goal">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                                cred nesciunt sapiente ea proident.
+                              Our goal is to provide a trusted site for our customers to research, ultimately find fit the best
+                              service and items, information, that fits their culture and lifestyle
+                              To offer your pet a sustainable, organic food supply then you can try only
+                             natural and provide high quality pet training and workshop services.
                             </div>
                         </div>
                     </div>
@@ -70,9 +77,8 @@
                                 <strong>+</strong>
                             </div>
                             <div class="collapse multi-collapse py-3" id="people">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                                cred nesciunt sapiente ea proident.
+                              The Norwood Park neighborhood of the northwest side of Chicago and its surronding.
+                              Our people and our a site allows people to find the best service when it comes to beaver care.
                             </div>
                         </div>
                     </div>
@@ -84,7 +90,7 @@
                 <div class="col center_xy">
                     <div>
                         <div class="h2 center_xy mb-0 text-info"> 11 </div>
-                        <span> SKILLED TECHNICIANS </span>
+                        <span> CERTIFIED TRAINERS </span>
                     </div>
                 </div>
                 <div class="col center_xy">
@@ -93,6 +99,12 @@
                         <span> YEARS EXPERIENCE </span>
                     </div>
                 </div>
+                    <div class="col center_xy">
+                        <div>
+                            <div class="h2 center_xy mb-0 text-info"> 500+ </div>
+                            <span>CUSTOMERS </span>
+                        </div>
+                    </div>
                 <div class="col center_xy">
                     <div>
                         <div class="h2 center_xy mb-0 text-info"> 320 </div>

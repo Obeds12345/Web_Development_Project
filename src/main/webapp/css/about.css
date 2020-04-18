@@ -36,3 +36,26 @@
   transform: rotate(45deg);
   box-sizing: content-box
 }
+.readmore {
+    max-height: 2em;
+    overflow: hidden;
+    color: rgba(0,0,0,.2);
+    transition: all .5s;
+}
+
+.readmore::before {
+    content: "Read more ...";
+    font-weight: 600;
+    color: initial;
+}
+
+.readmore:hover {
+    color: initial;
+    max-height: 100vh;
+    overflow: initial;
+    text-indent: 30px;
+}
+
+.readmore:hover::before {
+    content: "";
+}

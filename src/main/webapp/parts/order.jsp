@@ -14,22 +14,23 @@
                     </div>
                     <div class="bg-light p-3 border-bottom">
                         <small>TOTAL</small><br>
-                        <strong>April 20 2020</strong>
+
+                        <strong class""><span class="order-save-total"></span></strong>
                     </div>
                     <div class="bg-light p-3 border-bottom">
                         <small>PAYMENT METHOD</small><br>
-                        <strong>VISA CARD</strong>
+                        <strong class="text-uppercase">VISA CARD ENDING IN ${card} </strong>
                     </div>
                 </div>
                 <div class="card-header h2 bg-white">Shipment Details</div>
                 <div class="card-body">
                     <div class="bg-light p-3 border-bottom">
                         <small>NAME</small><br>
-                        <strong>${name}</strong>
+                        <strong class="text-uppercase">${name}</strong>
                     </div>
                     <div class="bg-light p-3 border-bottom">
                         <small>ADDRESS</small><br>
-                        <strong>${address}</strong>
+                        <strong class="text-uppercase">${address}</strong>
                     </div>
                     <div class="bg-light p-3 border-bottom">
                         <small>PHONE</small><br>
@@ -39,3 +40,6 @@
             </div>
         </div>
     </div>
+
+    <script src="./javascript/index.js"></script>
+    <style><%@ include file="../css/style.css"%></style>

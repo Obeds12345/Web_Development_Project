@@ -130,15 +130,22 @@ var shoppingCart = (function () {
 // Triggers / Events
 // *****************************************
 // Add item
+
+$('.clear-sessions').click(function (event) {
+  event.preventDefault();
+  sessionStorage.clear();
+});
+
+
 $('.add-to-cart').click(function (event) {
   event.preventDefault();
   var id = $(this).data('id');
   var name = $(this).data('name');
   var price = Number($(this).data('price'));
-  console.log(id);
   shoppingCart.addItemToCart(id, name, price, 1);
   displayCart();
 });
+
 
 // Clear items
 $('.clear-cart').click(function () {
@@ -188,19 +195,19 @@ function displayCart() {
       + "</tr>";
   }
   var tax = (shoppingCart.totalCart()*7.5)/100
-  var shipping = 19.99
+  var shipping = shoppingCart.totalCart() > 99.99 ? 0 : 19.99;
   var order_total =  shoppingCart.totalCart() + tax + shipping
   tax = Number(tax.toFixed(2));
   shipping = Number(shipping.toFixed(2));
   order_total = Number(order_total.toFixed(2));
 
   $('.show-cart').html(output);
-  $('.total-cart').html(shoppingCart.totalCart());
-  $('.tax').html(tax);
+  $('.total-cart').html("$" + shoppingCart.totalCart());
+  $('.tax').html("$" + tax);
   $('.total-count').html(shoppingCart.totalCount());
   $('.shipping').html("$" + shipping);
   $('.order-total').html("$" + order_total);
-
+  saveOrderTota(order_total, shoppingCart.totalCart(),tax, shipping)
 }
 
 // Delete item button
@@ -234,3 +241,27 @@ $('.show-cart').on("change", ".item-count", function (event) {
 });
 
 displayCart();
+
+function saveOrderTota(total, subtotal,tax, shipping) {
+console.log(total, subtotal,tax, shipping)
+if(subtotal > 0){
+  $('.order-save-total').html("$" + total);
+}
+}
+
+function clearCart() {
+  shoppingCart.clearCart();
+  displayCart();
+}
+
+window.addEventListener('load', (event) => {
+    if( window.location.href === "http://localhost:8080/order"){
+        clearCart()
+    }
+});
+
+window.addEventListener('unload', (event) => {
+    if( window.location.href === "http://localhost:8080/order"){
+        clearCart()
+    }
+});
