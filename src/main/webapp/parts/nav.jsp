@@ -129,10 +129,10 @@
                                     <div class="form-group">
                                         <label class="control-label" for="appointmentfor">Appointment For</label>
                                         <select id="appointmentfor" name="appointmentfor" class="form-control">
-                                            <option value="Service#1">Grooming</option>
-                                            <option value="Service#2">Beaver Yoga</option>
-                                            <option value="Service#3">Adoption Service</option>
-                                            <option value="Service#4">Exercise</option>
+                                            <option value="Service#1">Grooming Beaver Level 2: 4 to 6 months old</option>
+                                            <option value="Service#2">Beaver Yoga Beaver Level 2: 2 to 4 months old</option>
+                                            <option value="Service#3">Adoption Service Adult Beaver Level 1</option>
+                                            <option value="Service#4">Exercise Complete Package</option>
                                         </select>
                                     </div>
                                 </div>

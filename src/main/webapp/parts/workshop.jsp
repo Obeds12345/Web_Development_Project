@@ -58,7 +58,7 @@
                                 </div>
 
                                 <div class="col-2 ">
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#booknow">Register</button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Register">Register</button>
                                 </div>
 
                             </div>
@@ -81,7 +81,7 @@
                                     </span>
                                 </div>
                                 <div class="col-2 ">
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#booknow">Register</button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Register">Register</button>
                                 </div>
                             </div>
                             <div class="row mb-4">
@@ -103,7 +103,7 @@
                                     </span>
                                 </div>
                                 <div class="col-2 ">
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#booknow">Register</button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Register">Register</button>
                                 </div>
                             </div>
                             <div class="row mb-4">
