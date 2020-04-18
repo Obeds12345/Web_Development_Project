@@ -1,7 +1,3 @@
-<script src="./javascript/index.js"></script>
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/about.css">
-
 <main>
         <div class="text-white d-flex align-middle"
             style="align-items:center;background-image: url(images/image5.jpg);height: 200px;">
@@ -105,3 +101,6 @@
             </div>
         </div>
     </main>
+
+<style><%@ include file="../css/style.css"%></style>
+<style><%@ include file="../css/about.css"%></style>

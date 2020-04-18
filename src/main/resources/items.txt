@@ -2,4 +2,19 @@ item1, 4, 1, Waterproof Carrot toy, 5.99, 10.99
 item2, 5, 0, Portable Safe Cage, 129.99, 499.99
 item3, 3, 2, I'm a Beaver Cup, 8.99, 15.99
 item4, 3, 2, Beaver Statue, 14.99, 60.99
-item2, 3, 2, Item Description, 10.99, 59.99
+item5, 3, 2, Beaver Toy, 9.99, 39.99
+item6, 4, 1, Wood house, 89.99, 128.99
+item7, 4, 1, Better Beaver Food, 9.99, 28.99
+item8, 4, 1, Songbird Beaver Food, 5.99, 13.99
+item9, 3, 2, True Age Food, 12.99, 14.99
+item10, 3, 2, Beaver tea, 3.99, 4.99
+item11, 3, 2, Can Beans Food, 4.99, 5.99
+item12, 4, 1, Tree House, 130.99, 160.99
+item13, 5, 0, Tortoise House, 89.99, 128.99
+item14, 2, 3, Play Stick, 5.99, 8.99
+item15, 2, 3, Arc House, 29.99, 48.99
+item16, 4, 1, 2020 Beaver cage, 200.99, 220.99
+item17, 4, 1, Better Flea Spray, 19.99, 28.99
+item18, 4, 1, Blue cage, 60.99, 90.99
+item19, 3, 2, Flea trap, 7.99, 15.99
+item20, 4, 1, Beaver Toy Dog, 11.99, 19.99

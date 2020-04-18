@@ -1,7 +1,3 @@
-<script src="./javascript/index.js"></script>
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/contact.css">
-
   <main>
         <div class="text-white d-flex align-middle"
             style="align-items:center;background-image: url(images/image5.jpg);height: 200px;">
@@ -20,15 +16,16 @@
                     <h2> HOW TO FIND US </h2>
                     <span class="text-muted">
                         Our goal is to provide the best customer service and to answer all of your questions in a timely
-                        manner
+                        manner. If you have any concern regarding your terms,
+                        please contact Barbs Beaver lodge using the contact information on this page.
                     </span>
 
                 </div>
                 <div class="col-6">
                     <h2>LEAVE US A MESSAGE </h2>
-                    <span class="text-muted">Our goal is to provide the best customer service and to answer all of your
-                        questions in a
-                        timely manner.
+                    <span class="text-muted">Got a question, need to adopt, we do love to hear from you.
+                        please leave me a message that includes your name email, and telephone number,
+                          I will return your call as soon as possible. Thank you.
                     </span>
                 </div>
             </div>
@@ -117,3 +114,5 @@
         </div> -->
 
     </main>
+    <style><%@ include file="../css/style.css"%></style>
+    <style><%@ include file="../css/contact.css"%></style>

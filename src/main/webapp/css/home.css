@@ -25,6 +25,14 @@
     font-size: 0;
   }
 
+  #slider .sliderText {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-60%, -20%);
+    -ms-transform: translate(-60%, -20%);
+  }
+
   #slider .sliderbtn {
     position: absolute;
     top: 60%;
@@ -34,7 +42,8 @@
   }
 
   #slider .sliderbtn .login {
-    border: 2px solid #0594a8;
+    border: 2px solid #17a2b8;
+    background-color: #17a2b8;
     color: white;
     padding: 15px 32px;
     font-size: 16px;
@@ -62,10 +71,10 @@
     border: 2px solid rgb(71, 45, 45);
     color: #ffffff;
   }
-.movecard {
+.cardm {
   margin-bottom: 50px;
   position: absolute;
-  top: 750px;
+  top: 720px;
   left: 5.5%
 }
 
@@ -77,11 +86,22 @@
   cursor: pointer;
   text-align: center;
 }
-.serviceBtn:hover {
-  background-color: white;
-  border: 2px solid #0594a8;
-  color: #0594a8;
+
+.category1{
+    background-image: url(../images/category_1.jpg);
 }
- .category:hover{
-   transform: scale(1.1);
+
+.category{
+   border-radius: 50%;
+   height:  200px;
+   width: 200px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   transition: transform .2s; /* Animation */
  }
+
+.category:hover{
+  transform: scale(1.1);
+}
+

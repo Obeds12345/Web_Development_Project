@@ -1,7 +1,3 @@
-<script src="./javascript/index.js"></script>
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/footer.css">
-
 <footer class=" border-top">
         <div class="container-fluid bg-faded mt-5">
             <div class="container">
@@ -17,7 +13,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <h4>Tweets</h4>
-                                Embed here?
+                               View Our Tweets.
                             </div>
                         </div>
                         <!-- row end -->
@@ -28,7 +24,7 @@
                         <!-- row start -->
                         <div class="row py-2">
                             <div class="col-sm-3 hidden-md-down">
-                                <a class="bg-circle bg-info" href="#">
+                                <a class="bg-circle bg-info" href="contact">
                                     <i class="fa fa-2x fa-fw fa-address-card" aria-hidden="true "></i>
                                 </a>
                             </div>
@@ -47,7 +43,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <h4>Cookie policy</h4>
-                                <p class=" ">We use <a class=" " href="/# ">cookies </a></p>
+                                <p class=" ">We use <a class=" " href="#">cookies </a></p>
                             </div>
                         </div>
                         <!-- row end -->
@@ -58,13 +54,13 @@
                         <!-- row starting  -->
                         <div class="row py-2">
                             <div class="col-sm-3 hidden-md-down">
-                                <a class="bg-circle bg-danger" href="# ">
+                                <a class="bg-circle bg-danger" href="policy.pdf" download>
                                     <i class="fas fa-2x fa-fw fa-file-pdf" aria-hidden="true "></i>
                                 </a>
                             </div>
                             <div class="col-sm-9">
                                 <h4>Download pdf</h4>
-                                <p> You like print?</a></p>
+                                <p>Privacy Policy.</a></p>
 
                             </div>
                         </div>
@@ -72,7 +68,7 @@
                         <!-- row starting  -->
                         <div class="row py-2">
                             <div class="col-sm-3 hidden-md-down">
-                                <a class="bg-circle bg-info" href="https://twitter.com/ ">
+                                <a class="bg-circle bg-info" href="about">
                                     <i class="fa fa-2x fa-fw fa-info" aria-hidden="true "></i>
                                 </a>
                             </div>
@@ -118,3 +114,6 @@
             </div>
         </div>
     </footer>
+
+    <style><%@ include file="../css/style.css"%></style>
+    <style><%@ include file="../css/footer.css"%></style>

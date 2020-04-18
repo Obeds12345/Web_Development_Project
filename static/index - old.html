@@ -1,299 +1,159 @@
-<!DOCTYPE HTML>
-<html lang="en">
-
-<head>
-    <title>MyFavorites</title>
-    <meta charset="UTF-8" />
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-</head>
-
-<body>
-    <nav>
-        <div class="navtop bg-info">
-            <div class="container">
-                <div class="firstNav">
-                    <div class="firstNavRight">
-                        <span>
-                            <i class="fas fa-map-marker-alt"></i>&nbsp;
-                            <small>2031 South Clark, Chicago-IL</small>
-                        </span>
-                        <span>
-                            <i class="fas fa-phone-volume"></i>&nbsp;
-                            <small>312 394 9286</small>
-                        </span>
-                        <span>
-                            <i class="fas fa-envelope"></i>&nbsp;
-                            <small>contact@beaver.com</small>
-                        </span>
-                    </div>
-                    <div class="firstNavLeft ">
-                        <ul>
-                            <li><i class="fab fa-facebook-f"></i></li>
-                            <li><i class="fab fa-twitter"></i></li>
-                            <li><i class="fab fa-youtube"></i></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+<nav class="navbar navbar-light bg-info py-2">
+    <div class="container-fluid text-white d-flex justify-content-between">
+        <div class="">
+            <span class="mr-2">
+                <i class="fas fa-map-marker-alt"></i>&nbsp;
+                <small>2031 South Clark, Chicago-IL</small>
+            </span>
+            <span class="mr-2">
+                <i class="fas fa-phone-volume"></i>&nbsp;
+                <small>312 394 9286</small>
+            </span>
+            <span>
+                <i class="fas fa-envelope"></i>&nbsp;
+                <small>contact@beaver.com</small>
+            </span>
         </div>
-        <div class="main-nav navbottom" style="background-color: white; border-bottom:  1px solid rgba(0, 0, 0, 0.15);"
-            id="myHeader">
-            <div class="container">
-                <div>
-                    LOGO
-                </div>
-                <div class="secondNav">
-                    <ul>
-                        <li><a class="active" href="#home">Home</a></li>
-                        <li><a href="#news">Service</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#about">About</a></li>
-                    </ul>
-                    <!-- <button type="button" class="btn btn-outline-info py-2">Book Now</button> -->
-                    <button class="button">Book Now</button>
-                </div>
-            </div>
+        <div>
+            <ul class="list-inline my-0">
+                <li class="list-inline-item border-left border-right mx-0 px-4"><i class="fab fa-facebook-f"></i></li>
+                <li class="list-inline-item border-right mx-0 px-3"><i class="fab fa-twitter"></i></li>
+                <li class="list-inline-item border-right mx-0 px-3"><i class="fab fa-youtube"></i></li>
+            </ul>
         </div>
+    </div>
+</nav>
 
+<nav class="navbar navbar-expand-md navbar-white bg-white sticky-top py-0 border-bottom">
+    <div class="container">
+        <a class="navbar-brand" href="index"><img src="images/logo.jpg" alt="" style="height: 60px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    </nav>
-    <main>
-        <div style="height: 900px;">
-            <div id="slider">
-                <img src="images/image1.jpg">
-                <!-- <img src="images/image2.jpg">
-                <img src="images/image3.jpg">
-                <img src="images/image4.jpg">
-                <img src="images/image1.jpg"> -->
-                <div class="sliderbtn">
-                    <button class="btn login bg-dark-green">Login</button>
-                    <button class="btn signup">Become a member</button>
-                </div>
-            </div>
-            <div class="container grid-container movecard">
-                <div class="grid-item">
-                    <div class="card bg-burlywood">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <div class="bg-dark-green card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <div class="bg-dark card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto px-2 py-3">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
+                </li>
 
-        <div class="container d-flex justity-content-between" style="padding: 40px;">
-            <div>
-                <div>
-                    <h2 style="margin: 0;">PREVENTIVE PET CARE AND VETERINARY SERVICES</h2>
-                    <small>We offer a wide range of health, wellness and veterinary services. </small>
-                </div>
-            </div>
-            <button class="btn serviceBtn bg-dark-green">View All Services</button>
-        </div>
-
-        <div class="" style="background-color:rgb(242, 242, 242);">
-            <div style="text-align: center; padding: 40px;">
-                <h1> VETERINARY SERVICES</h1>
-                <div> We offer a variety of services to care for your pet. If you have any questions </div>
-                <div> please contact us today.</div>
-            </div>
-            <div class="container grid-container">
-                <div class="grid-item">
-                    <div class="card cardD">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <div class="card cardD">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <div class="card cardD">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-    
-    <footer class="mt-5">
-        <div class="container-fluid bg-faded mt-5">
-          <div class="container">
-            <div class="row py-3">
-              <!-- footer column 1 start -->
-              <div class="col-md-4">
-                <!-- row start -->
-                <div class="row py-2">
-                  <div class="col-sm-3 hidden-md-down">
-                    <a class="bg-circle bg-info" href="https://twitter.com/ ">
-                      <i class="fab fa-2x fa-fw fa-twitter" aria-hidden="true "></i>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Service
                     </a>
-                  </div>
-                  <div class="col-sm-9">
-                    <h4>Tweets</h4>
-                    Embed here?
-                  </div>
-                </div>
-                <!-- row end -->
-              </div>
-              <!-- footer column 1 end -->
-              <!-- footer column 2 start -->
-              <div class="col-md-4">
-                <!-- row start -->
-                <div class="row py-2">
-                  <div class="col-sm-3 hidden-md-down">
-                    <a class="bg-circle bg-info" href="#">
-                      <i class="fa fa-2x fa-fw fa-address-card" aria-hidden="true "></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-9">
-                    <h4>Contact us</h4>
-                    <p>Why not?</p>
-                  </div>
-                </div>
-                <!-- row end -->
-                <!-- row start -->
-                <div class="row py-2">
-                  <div class="col-sm-3 hidden-md-down">
-                    <a class="bg-circle bg-info" href="#">
-                      <i class="fa fa-2x fa-fw fa-laptop" aria-hidden="true "></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-9">
-                    <h4>Cookie policy</h4>
-                    <p class=" ">We use <a class=" " href="/# ">cookies </a></p>
-                  </div>
-                </div>
-                <!-- row end -->
-              </div>
-              <!-- footer column 2 end -->
-              <!-- footer column 3 start -->
-              <div class="col-md-4">
-                <!-- row starting  -->
-                <div class="row py-2">
-                  <div class="col-sm-3 hidden-md-down">
-                    <a class="bg-circle bg-danger" href="# ">
-                      <i class="fas fa-2x fa-fw fa-file-pdf" aria-hidden="true "></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-9">
-                    <h4>Download pdf</h4>
-                    <p> You like print?</a></p>
-      
-                  </div>
-                </div>
-                <!-- row ended -->
-                <!-- row starting  -->
-                <div class="row py-2">
-                  <div class="col-sm-3 hidden-md-down">
-                    <a class="bg-circle bg-info" href="https://twitter.com/ ">
-                      <i class="fa fa-2x fa-fw fa-info" aria-hidden="true "></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-9">
-                    <h4>Info</h4>
-                    About us.
-                  </div>
-                </div>
-                <!-- row ended -->
-              </div>
-              <!-- footer column 3 end -->
-            </div>
-          </div>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="workshop">Training/Workshop</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="shop">Shop</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about">About Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-info my-2 my-sm-0" data-toggle="modal" data-target="#booknow">Book
+                    Now</button>
+            </form>
         </div>
-      
-      
-        <div class="container-fluid bg-primary py-3">
-          <div class="container">
-            <div class="row py-3">
-              <div class="col-md-9">
-                <p class="text-white">Lorem ipsum.</p>
-              </div>
-              <div class="col-md-3">
-                <div class="d-inline-block">
-                  <div class="bg-circle-outline d-inline-block">
-                    <a href="https://www.facebook.com/" class="text-white"><i class="fab fa-2x fa-fw fa-facebook-f"></i>
-              </a>
-                  </div>
-      
-                  <div class="bg-circle-outline d-inline-block">
-                    <a href="https://twitter.com/" class="text-white">
-                      <i class="fab fa-2x fa-fw fa-twitter"></i></a>
-                  </div>
-      
-                  <div class="bg-circle-outline d-inline-block">
-                    <a href="https://www.linkedin.com/company/" class="text-white">
-                      <i class="fab fa-2x fa-fw fa-linkedin-in"></i></a>
-                  </div>
-                </div>
-              </div>
+    </div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="booknow" tabindex="-1" role="dialog" aria-labelledby="booknowTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-          </div>
+            <div class="modal-body">
+                <div class="col-md-6">
+                    <div class="well-block">
+                        <div class="well-title">
+                            <h2>Questions? Book an Appointment</h2>
+                        </div>
+                        <form>
+                            <!-- Form start -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="name">Name</label>
+                                        <input id="name" name="name" type="text" placeholder="Name"
+                                            class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="email">Email</label>
+                                        <input id="email" name="email" type="text" placeholder="E-Mail"
+                                            class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="date">Preferred Date</label>
+                                        <input id="date" name="date" type="text" placeholder="Preferred Date"
+                                            class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="time">Preferred Time</label>
+                                        <select id="time" name="time" class="form-control">
+                                            <option value="8:00 to 9:00">8:00 to 9:00</option>
+                                            <option value="9:00 to 10:00">9:00 to 10:00</option>
+                                            <option value="10:00 to 1:00">10:00 to 1:00</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label" for="appointmentfor">Appointment For</label>
+                                        <select id="appointmentfor" name="appointmentfor" class="form-control">
+                                            <option value="Service#1">Service#1</option>
+                                            <option value="Service#2">Service#2</option>
+                                            <option value="Service#3">Service#3</option>
+                                            <option value="Service#4">Service#4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <button id="singlebutton" name="singlebutton" class="btn btn-default">Make An
+                                            Appointment</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- form end -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
         </div>
-      </footer>
+    </div>
+</div>
 
-</body>
 
-<link rel="stylesheet" href="style.css">
-<script src="index.js"></script>
-
-</html>
+<script src="./javascript/index.js"></script>
+<style>
+    <%@ include file="../css/style.css"%>
+</style>
+<style>
+    <%@ include file="../css/nav.css"%>
+</style>
