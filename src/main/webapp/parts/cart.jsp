@@ -93,36 +93,39 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Payment Details</h5>
-                <label> <input type="checkbox" /> Remember </label>
             </div>
             <div class="modal-body container">
                 <form action="order" method="post">
                     <div class="form-group">
-                        <label class="control-label" for="name">Name</label>
-                        <input id="name" name="name" maxlength="100"type="text" placeholder="Name" class="form-control input-md">
+                        <label class="control-label" for="name">Name <span style="color:red">*</span></label>
+                        <input id="name" name="name" maxlength="30"type="text" placeholder="Name" class="form-control input-md"
+                          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                     </div>
 
                     <div class="row">
                         <div class="col-7">
                             <div class="form-group">
-                                <label class="control-label" for="name">Email</label>
-                                <input id="email" name="email" type="text" maxlength="100" placeholder="Email" class="form-control ">
+                                <label class="control-label" for="name">Email<span style="color:red">*</span></label>
+                                <input id="email" name="email" type="text" maxlength="50" placeholder="Email" class="form-control "
+                                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                             </div>
                         </div>
                         <div class="col-5">
                             <div class="form-group">
                                 <label class="control-label" for="name">Phone</label>
-                                <input id="phone" name="phone" maxlength="13" type="number" placeholder="Phone" class="form-control">
+                                <input id="phone" name="phone" maxlength="13" type="number" placeholder="Phone" class="form-control"
+                                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                             </div>
                         </div>
                     </div>
 
                     <div class="form-group">
-                       <label class="control-label" for="name">Address</label>
-                       <input id="address" name="address" maxlength="100" type="text" placeholder="Name" class="form-control input-md">
+                       <label class="control-label" for="name">Address<span style="color:red">*</span></label>
+                       <input id="address" name="address" maxlength="50" type="text" placeholder="Name" class="form-control input-md"
+                         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                    </div>
                     <div class="form-group">
-                        <label for="cardNumber"> CARD NUMBER</label>
+                        <label for="cardNumber"> CARD NUMBER<span style="color:red">*</span></label>
                             <input class="form-control" id="cardNumber" placeholder="Valid Card Number" name="card"
                               oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                               minlength="16" maxlength="16" type="number"  required autofocus />
@@ -130,13 +133,13 @@
                   <div class="row">
                          <div class="col-6">
                            <div class="form-group">
-                               <label for="expityMonth"> EXPIRY DATE</label>
+                               <label for="expityMonth"> EXPIRY DATE<span style="color:red">*</span></label>
                                    <input type="month" class="form-control" id="expityMonth" name="date" placeholder="MMYY" required />
                            </div>
                            </div>
                           <div class="col-6">
                                <div class="form-group">
-                                    <label for="cvCode"> CV CODE</label>
+                                    <label for="cvCode"> CV CODE<span style="color:red">*</span></label>
                                         <input type="password" class="form-control" id="cvCode" name="cvCode" placeholder="CV"
                                          minlength="3" maxlength="3"required />
                                 </div>
